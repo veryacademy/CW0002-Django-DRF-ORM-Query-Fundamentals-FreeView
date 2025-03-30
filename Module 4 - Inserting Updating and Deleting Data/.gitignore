@@ -1,0 +1,50 @@
+# **Python Ignore Files**
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# **Django-Specific Ignore**
+db.sqlite3
+*.sqlite3
+*.log
+media/
+staticfiles/
+
+# **Virtual Environment**
+venv/
+env/
+*.venv
+
+# **Environment Variables & Secrets**
+.env
+.env.local
+.env.production
+.env.*
+
+# **IDE & Editor Files**
+.idea/
+*.swp
+*.swo
+
+# **Migrations (Optional)**
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# **Docker Ignore (If using Docker)**
+*.pid
+*.tar
+*.log
+
+# **Compiled Code**
+*.so
+*.dll
+*.dylib
+
+# **Node Modules (if using JavaScript frontend)**
+node_modules/
+npm-debug.log
+
+# **MacOS & System Files**
+.DS_Store
+Thumbs.db

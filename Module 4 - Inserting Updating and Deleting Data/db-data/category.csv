@@ -1,0 +1,35 @@
+id,parent_id,name,slug,is_active,level
+1,,Electronics,electronics,false,1
+2,,Furniture,furniture,false,1
+3,,Clothing,clothing,true,1
+4,,Books,books,true,1
+5,1,Smartphones,smartphones,true,2
+6,1,Laptops,laptops,true,2
+7,2,Sofas,sofas,true,2
+8,2,Chairs,chairs,true,2
+9,3,Men's Clothing,mens-clothing,true,2
+10,3,Women's Clothing,womens-clothing,true,2
+11,,Electronic Bikes,electronics-bikes,false,1
+12,1,Tablets,tablets,true,2
+13,1,Cameras,cameras,true,2
+14,1,Headphones,headphones,true,2
+15,2,Beds,beds,true,2
+16,2,Desks,desks,true,2
+17,2,Dining Tables,dining-tables,true,2
+18,3,Kid's Clothing,kids-clothing,true,2
+19,3,Accessories,accessories,true,2
+20,4,Fiction,fiction,true,2
+21,4,Non-Fiction,non-fiction,true,2
+22,4,Comics,comics,true,2
+23,4,Educational,educational,true,2
+24,5,Android Phones,android-phones,true,3
+25,5,iPhones,iphones,true,3
+26,6,Gaming Laptops,gaming-laptops,true,3
+27,6,Ultrabooks,ultrabooks,true,3
+28,7,Recliners,recliners,true,3
+29,7,Sectionals,sectionals,true,3
+30,8,Office Chairs,office-chairs,true,3
+31,8,Gaming Chairs,gaming-chairs,true,3
+32,11,Mountain E-Bikes,mountain-ebikes,true,2
+33,11,Road E-Bikes,road-ebikes,true,2
+34,11,Folding E-Bikes,folding-ebikes,true,2

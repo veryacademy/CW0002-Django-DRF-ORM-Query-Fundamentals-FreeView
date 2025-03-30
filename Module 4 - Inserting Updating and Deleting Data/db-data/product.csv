@@ -1,0 +1,31 @@
+id,category_id,name,slug,description,is_digital,is_active,created_at,updated_at,price
+1,1,iPhone 13,iphone-13,Latest iPhone with amazing features,false,true,2025-02-14T00:00:01,2025-02-14T00:00:00,999.99
+2,1,MacBook Pro 16-inch,macbook-pro-16-inch,High-performance laptop with powerful specs,false,true,2025-02-14T00:00:02,2025-02-14T00:00:00,2899.99
+3,1,Samsung Galaxy S21,samsung-galaxy-s21,Samsung's flagship phone with cutting-edge technology,false,true,2025-02-14T00:00:03,2025-02-14T00:00:00,799.99
+4,2,Leather Sofa,leather-sofa,Comfortable leather sofa for your living room,false,true,2025-02-14T00:00:04,2025-02-14T00:00:00,1299.99
+5,2,Wooden Dining Table,wooden-dining-table,Stylish wooden dining table for a modern home,false,true,2025-02-14T00:00:05,2025-02-14T00:00:00,499.99
+6,3,Men's T-Shirt,mens-t-shirt,Comfortable cotton t-shirt for everyday wear,false,true,2025-02-14T00:00:06,2025-02-14T00:00:00,19.99
+7,3,Women's Blouse,womens-blouse,Stylish blouse for casual or formal wear,false,true,2025-02-14T00:00:07,2025-02-14T00:00:00,29.99
+8,3,Men's Jacket,mens-jacket,Warm and stylish jacket for colder weather,false,true,2025-02-14T00:00:08,2025-02-14T00:00:00,99.99
+9,4,Mystery Novel,mystery-novel,A thrilling mystery novel that will keep you guessing,false,true,2025-02-14T00:00:09,2025-02-14T00:00:00,14.99
+10,4,Science Fiction Book,science-fiction-book,A captivating science fiction novel that explores the future,false,true,2025-02-14T00:00:10,2025-02-14T00:00:00,19.99
+11,4,Science Fiction Book-2,science-fiction-book-2,A captivating science fiction novel that explores the future,false,true,2025-02-14T00:00:10,2025-02-14T00:00:00,19.99
+12,,Science Fiction Book-3,science-fiction-book-3,A captivating science fiction novel that explores the future,false,true,2025-02-14T00:00:10,2025-02-14T00:00:00,19.99
+13,5,Google Pixel 7,google-pixel-7,Google's latest smartphone with AI-powered features,false,true,2025-02-14T00:00:11,2025-02-14T00:00:00,899.99
+14,5,OnePlus 10 Pro,oneplus-10-pro,Flagship OnePlus phone with fast charging,false,true,2025-02-14T00:00:12,2025-02-14T00:00:00,749.99
+15,6,Dell XPS 15,dell-xps-15,High-end ultrabook with a sleek design,false,true,2025-02-14T00:00:13,2025-02-14T00:00:00,2199.99
+16,6,Asus ROG Zephyrus G14,asus-rog-zephyrus-g14,Powerful gaming laptop with a compact design,false,true,2025-02-14T00:00:14,2025-02-14T00:00:00,1599.99
+17,7,Modern Recliner,modern-recliner,Comfortable recliner chair with ergonomic support,false,true,2025-02-14T00:00:15,2025-02-14T00:00:00,899.99
+18,7,Classic Sectional Sofa,classic-sectional-sofa,Spacious and comfortable sectional sofa,false,true,2025-02-14T00:00:16,2025-02-14T00:00:00,1499.99
+19,8,Ergonomic Office Chair,ergonomic-office-chair,Adjustable office chair for better posture,false,true,2025-02-14T00:00:17,2025-02-14T00:00:00,249.99
+20,8,Gaming Chair,gaming-chair,Comfortable gaming chair for long hours of play,false,true,2025-02-14T00:00:18,2025-02-14T00:00:00,349.99
+21,9,Men's Jeans,mens-jeans,Classic denim jeans for everyday wear,false,true,2025-02-14T00:00:19,2025-02-14T00:00:00,49.99
+22,9,Men's Sneakers,mens-sneakers,Stylish sneakers for casual outings,false,true,2025-02-14T00:00:20,2025-02-14T00:00:00,79.99
+23,10,Women's Skirt,womens-skirt,Flattering skirt for all occasions,false,true,2025-02-14T00:00:21,2025-02-14T00:00:00,39.99
+24,10,Women's Heels,womens-heels,Chic high heels for a stylish look,false,true,2025-02-14T00:00:22,2025-02-14T00:00:00,89.99
+25,11,Mountain E-Bike,mountain-ebike,Durable and rugged electric mountain bike,false,true,2025-02-14T00:00:23,2025-02-14T00:00:00,2499.99
+26,11,Folding E-Bike,folding-ebike,Compact and portable electric bike,false,true,2025-02-14T00:00:24,2025-02-14T00:00:00,1999.99
+27,20,Bestselling Fiction Book,bestselling-fiction-book,Gripping novel by a renowned author,false,true,2025-02-14T00:00:25,2025-02-14T00:00:00,24.99
+28,21,Historical Biography,historical-biography,Insightful biography of a historical figure,false,true,2025-02-14T00:00:26,2025-02-14T00:00:00,29.99
+29,22,Graphic Novel,graphic-novel,Exciting graphic novel with stunning artwork,false,true,2025-02-14T00:00:27,2025-02-14T00:00:00,19.99
+30,23,Mathematics Textbook,mathematics-textbook,Comprehensive math textbook for students,false,false,2025-02-14T00:00:28,2025-02-14T00:00:00,59.99

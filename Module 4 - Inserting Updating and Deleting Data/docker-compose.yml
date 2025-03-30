@@ -1,0 +1,46 @@
+name: Django-ORM-Course
+
+services:
+  postgres:
+    image: postgres:17.4-alpine3.21
+    container_name: inventory_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: inventory
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./db-data:/data
+
+  django:
+    build: .
+    container_name: django_app
+    restart: always
+    depends_on:
+      - postgres
+    volumes:
+      - ./app:/app
+    ports:
+      - "8000:8000"
+    command: >
+      sh -c "
+          if python manage.py shell -c 'from django.contrib.auth.models import User; print(User.objects.filter(username=\"admin\").exists())' | grep -q 'True'; then
+            echo 'Admin user exists, skipping app and database setup';
+          else
+            if [ ! -f manage.py ]; then 
+              django-admin startproject core .; 
+            fi &&
+            if [ ! -d inventory ]; then 
+              python manage.py startapp inventory; 
+            fi &&
+            rm -f inventory/migrations/0001_initial.py &&
+            python manage.py migrate &&
+            python manage.py makemigrations &&
+            python manage.py migrate inventory --fake &&
+            python manage.py shell -c 'from django.contrib.auth.models import User; User.objects.create_superuser(\"admin\", \"admin@example.com\", \"admin\");' ;
+          fi &&
+          python manage.py runserver 0.0.0.0:8000
+        "
