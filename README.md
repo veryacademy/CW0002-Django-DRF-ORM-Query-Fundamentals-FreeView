@@ -1,4 +1,4 @@
-## 🚀 Master SQL with Our Course!  
+## 🚀 Master Django DRF ORM with Our Course!  
 Want to level up your SQL skills? Our **Django DRF ORM Query Fundamentals Course** covers everything from basics to advanced queries.  
 
 🔥 **Join the Udemy Course today and start learning!**  
