@@ -7,9 +7,7 @@ Want to level up your Django ORM skills? Our **Django DRF ORM Query Fundamentals
 ---
 # Django DRF ORM Fundamentals  
 
-**View this course at YouTube**  
-📌 [Click here to view playlist!](https://www.youtube.com/playlist?list=PLOLrQ9Pn6caxNFR2PWbHl3laaAI6J-GbN)  
-
 This course is designed to help you master Django ORM (Object-Relational Mapping) and Django REST Framework (DRF) to build scalable, database-driven APIs. You’ll start from the fundamentals of database design and queries and progress to advanced filtering, joins, and optimizations—all while integrating with DRF to expose your data through APIs.
 
-
+**View this course at YouTube**  
+📌 [Click here to view playlist!](https://www.youtube.com/playlist?list=PLOLrQ9Pn6caxNFR2PWbHl3laaAI6J-GbN)  
